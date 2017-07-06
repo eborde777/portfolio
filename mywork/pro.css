@@ -1,0 +1,141 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: repeat-x repeat-y;
+}
+
+/*MAIN PAGE*/
+/*-------------------------*/
+.container{
+/*    background-color: burlywood;*/
+    margin: auto;
+/*    margin-top: 2em;*/
+    width:80%;
+    height: auto;
+    padding: 1em;
+    position: relative;
+}
+/*----------------------------*/
+
+/*NAVBAR SETTINGS*/
+/*------------------------------*/
+.navbar{
+/*    background-color: darkgray;*/
+    margin: auto;
+/*    text-align: center;*/
+/*    padding:0.5em;*/
+    font-size: 20px;
+    height: 50px;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: inline;
+    padding: 10px 30px;
+    color: coral;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    display: inline;
+    width:auto;
+    float: left;
+    height:70;
+
+}
+.logo a:hover{
+    text-decoration:none;
+    background-color: none;
+}
+.myImg{
+    height:100%;
+    width:auto;
+    border: 1px;
+    border-color: black;
+}
+
+hr{
+    color: black;
+}
+/*------------------------------*/
+
+/*BIG DIV JUMBO*/
+/*-------------------------------------*/
+
+.bigDiv{
+/*    background-color: darkkhaki;*/
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    position:relative;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 1.5em;
+}
+
+.bigDiv>img{
+    width: 100%;
+    height: 100%;
+/*    opacity: 0.6;*/
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    position:absolute;
+}
+
+.bigDiv>h1,p{
+    padding:2em;
+}
+
+/*BUTTON*/
+.download{
+    width:10%;
+    height:5%;
+    margin-top: -5%;
+    background-color: darkgray;
+    position: relative;
+}
+
+/*-----------------------------------------*/
+
+/*RESUME*/
+/*--------------------------------------*/
+.resume{
+/*    background-color: aqua;*/
+    margin-top: %;
+    text-align: center;
+}
+
+.resume>img{
+    margin-top:5%;
+    width:100%;
+    height:auto;
+}
+/*----------------------------------------*/
+
+/*FOOTER*/
+/*----------------------------------------*/
+.footer{
+    background-color: black;
+    margin-bottom: -100px;
+    height:auto;
+    margin-top: 10%;
+    text-align: center;
+    color:white;
+/*    position:relative;*/
+/*    padding-bottom: 50px;*/
+
+}
+
+.footer>h1,p{
+    margin-top:-2em;
+    display: block;
+}
+/*---------------------------------------*/
