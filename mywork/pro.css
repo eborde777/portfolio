@@ -125,10 +125,11 @@ hr{
 
 /*FOOTER*/
 /*----------------------------------------*/
+
 .footer{
     background-color: black;
-    margin-bottom: -100px;
-    height:auto;
+    margin-bottom: -130px;
+    height:250px;
     margin-top: 110px;
     text-align: center;
     color:white;
@@ -138,14 +139,15 @@ hr{
 }
 
 .footer>h1{
-    padding: 20px;
-    display: block;
+    padding-top: 50px;
+/*    display: b*/
     margin-top:-2em;
 
 }
 
 .footer>p{
     margin-top: -30px;
-    line-height: 10%;
+    line-height: 1;
+    display: inline-block;
 }
 /*---------------------------------------*/
