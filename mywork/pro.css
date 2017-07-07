@@ -1,7 +1,9 @@
+/*
 body{
     background-image: url("background.jpg");
     background-repeat: repeat-x repeat-y;
 }
+*/
 
 /*MAIN PAGE*/
 /*-------------------------*/
@@ -117,6 +119,7 @@ hr{
     margin-top:5%;
     width:100%;
     height:auto;
+    border: black solid 1px;
 }
 /*----------------------------------------*/
 
@@ -126,7 +129,7 @@ hr{
     background-color: black;
     margin-bottom: -100px;
     height:auto;
-    margin-top: 80px;
+    margin-top: 110px;
     text-align: center;
     color:white;
 /*    position:relative;*/
