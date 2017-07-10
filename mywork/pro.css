@@ -25,9 +25,15 @@
 
 .nav-headers{
 /*    background-color: darkgoldenrod;*/
-    width:70%;
+    width:75%;
     float:left;
-    text-align: left;
+    text-align: center;
+/*    background: rgba(0, 0, 0, .8);*/
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
 }
 
 .nav-headers li{
@@ -37,8 +43,8 @@
 .nav-headers a{
     text-decoration: none;
     display: inline;
-    padding: 10px 30px;
-    color: coral;
+    padding: 2% 3%;
+    color: white;
 }
 
 .nav-headers a:hover{
@@ -48,23 +54,29 @@
 .logo{
 /*    background-color: crimson;*/
     display: inline;
-    width:auto;
+    width:20%;
     float: left;
+/*
     padding-left: 10%;
     padding-right:5%;
-    height:70px;
+*/
+    height:100%;
 }
 
-.logo a:hover{
-    text-decoration:none;
-    background-color: none;
-}
+
 .myImg{
-    height:100%;
+    height:60%;
     width:auto;
-    float:right;
+    opacity:0.7;
+    float:left;
     border: 1px;
     border-color: black;
+}
+
+.logo a,img:hover{
+    text-decoration:none;
+    background-color: none;
+    opacity:1.0;
 }
 
 hr{
@@ -82,36 +94,80 @@ hr{
     height: auto;
     position:relative;
     text-align: center;
-    color: white;
+    align-items: center;
+    color: black;
     display: block;
     font-size: 1.5em;
+    overflow: hidden;
+    border:black solid 1px;
+    background: rgba(0, 0, 0, .15);
 }
 
+/*
 .bigDiv>img{
     width: 100%;
     height: 100%;
-/*    opacity: 0.6;*/
+    opacity: 0.6;
     left: 0px;
     top: 0px;
     z-index: -1;
     position:absolute;
 }
+*/
 
-.bigDiv>h1,p{
-    padding:2em;
+.content{
+/*    background-color: cadetblue;*/
+    float:left;
+    display: inline-block;
+    width:40%;
+    text-align: center;
+    margin:auto;
+/*    padding-right: 10%;*/
+    
+/*    position: absolute;*/
 }
 
-.bigDiv>p{
-    font-size: 18px;
+.content>h1,p{
+/*    padding:2em;*/
+}
+
+.content>h1{
+    font-size:3em;
+}
+
+.content>p{
+    font-size: 1.5em;
+}
+
+
+.myImage{
+    float:left;
+    width: 35%;
+    height:50%;
+    position:relative;
+    display: inline-block;
+    margin:auto;
+/*    background-color: aqua;*/
+    padding: 3%;
+    
+    
+}
+
+.myImage>img{
+
+    width:auto;
+    height:100%;
+    padding:1%;
+/*    position:relative;*/
 }
 
 /*BUTTON*/
 .download{
     width:150px;
-    height:50px;
-    margin-top: -5%;
-    background-color: darkgray;
+    height:40px;
+    margin-top: auto;
     position: relative;
+    background: rgba(0, 153, 0, .5);
 }
 
 /*-----------------------------------------*/
@@ -120,7 +176,7 @@ hr{
 /*--------------------------------------*/
 .resume{
 /*    background-color: aqua;*/
-    margin-top: 5%;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -155,8 +211,9 @@ hr{
 }
 
 .footer>p{
-    margin-top: -30px;
+/*    margin-top: -30px;*/
     line-height: 1;
+    padding:2px;
     font-size: 14px;
     display: inline-block;
 }
