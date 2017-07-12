@@ -87,20 +87,39 @@ BIG DIV SETTINGS
     margin-left:-9px;
     margin-right:-9px;
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.3em;
 }
 
 .jumbo{
     width:70%;
 /*    background-color:burlywood;*/
+    text-align: center;
     margin-left: 20%;
+}
+
+.down{
+    border-radius: 28px;
+    font-family: Arial;
+    background-color: dodgerblue;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size:1.3em;
+    height:auto;
+    width:250px;
+}
+
+.down:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 .content{
 /*    background-color: forestgreen;*/
-    width:40%;
+    width:50%;
     position:relative;
     float:left;
+    height:auto;
     
 }
 
@@ -110,13 +129,15 @@ BIG DIV SETTINGS
 
 .content h1, h3{
     text-align: center;
+    font-size: 3em;
 }
 
 .myImage{
 /*    background-color: deeppink;*/
-    width:60%;
+    width:50%;
     position:relative;
     float:left;
+    text-align: justify;
 }
 
 .myImage img{
@@ -137,7 +158,7 @@ BIG DIV SETTINGS
     width:100%;
 /*    background-color: brown;*/
     text-align: justify;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left:-9px;
     display: inline-block;
 /*    font-size: 25px;*/
@@ -163,13 +184,17 @@ BIG DIV SETTINGS
     border: 1px solid black;
 }
 
+/*---------------------------------*/
+
+/*FOOTER SECTION*/
+/*---------------------------------*/
 .footer{
     overflow: hidden;
     text-align:center;
     position:relative;
     background:rgba(0,0,0,0.8);
     margin: 10px -7.5px -9px;
-/*    height: 100%;*/
+    height: auto;
     width:auto;
     color:azure;
     display: block;
@@ -200,6 +225,4 @@ BIG DIV SETTINGS
 /*    background-color: fuchsia;*/
 }
 
-.footer img:hover{
-    opacity:0.5;
-}
+/*------------------------------------*/
